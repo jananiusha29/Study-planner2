@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Environment variables
+server/.env
+client/.env
+
+# SQLite database (generated at runtime)
+server/data/*.db
+server/data/*.db-journal
+server/data/*.db-wal
+server/data/*.db-shm
+
+# Build output
+client/dist/
+
+# Logs / misc
+npm-debug.log*
+.DS_Store
